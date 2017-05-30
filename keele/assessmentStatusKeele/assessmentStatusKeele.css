@@ -7,8 +7,7 @@ a[href*="javascript:markReviewed"] {
 }
 
 a[href*="javascript:markReviewed"]::after {
-    font-family: FontAwesome;
-    content: "\f005 Click here to acknowledge that you understand the Keele University assignment submission requirements."; 
+    content: "! Click here to acknowledge that you understand the Keele University assignment submission requirements."; 
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;

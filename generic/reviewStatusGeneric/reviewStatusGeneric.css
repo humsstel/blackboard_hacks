@@ -7,7 +7,7 @@ a[href*="javascript:markReviewed"] {
 }
 
 a[href*="javascript:markReviewed"]::after {
-    content: "\1F5B0 Click here to mark that you have reviewed this content"; 
+    content: "! Click here to mark that you have reviewed this content"; 
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
