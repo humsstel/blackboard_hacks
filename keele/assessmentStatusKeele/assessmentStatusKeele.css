@@ -1,3 +1,15 @@
+#content_listContainer > :first-child .item-icon {
+    display: none !important;
+}
+
+#content_listContainer > :first-child .clearfix {
+    padding-left: 0px !important;
+}
+
+#content_listContainer > :first-child .details {
+    padding-left: 0px !important;
+}
+
 .button-5 {
     padding-left: 0 !important;
 }
