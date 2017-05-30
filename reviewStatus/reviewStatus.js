@@ -2,7 +2,7 @@
     /* Insert CSS to style search input */
     var link = document.createElement("link");
     link.setAttribute("rel", "stylesheet");
-    link.setAttribute("href", "https://staff.keele.ac.uk/bbcswebdav/xid-2827583_1");
+    link.setAttribute("href", "https://humsstel.github.io/blackboard_hacks/reviewStatus/review_status.css");
     var head = document.getElementsByTagName("head") [0];
     head.appendChild(link);
     /* Insert Font Awesome for search icon */
