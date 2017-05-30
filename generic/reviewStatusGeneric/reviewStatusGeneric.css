@@ -1,5 +1,4 @@
 .button-5 {
-    max-width: 500px !important;
     padding-left: 0 !important;
 }
 
@@ -43,5 +42,5 @@ a[href*="javascript:markUnreviewed"]::after {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    display: 
+    float: left;
 }
