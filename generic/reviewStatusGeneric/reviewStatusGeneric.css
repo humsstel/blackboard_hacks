@@ -21,6 +21,7 @@ a[href*="javascript:markReviewed"]::after {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    float: left;
 }
 
 a[href*="javascript:markUnreviewed"] {
