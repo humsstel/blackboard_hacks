@@ -14,9 +14,9 @@ a[href*="javascript:markReviewed"]::after {
     -moz-border-radius: 5;
     border-radius: 5px;
     font-family: Arial;
-    color: #ffffff;
+    color: #4B515D;
     font-size: 16px;
-    background: #ff4444;
+    background: #ffbb33;
     padding: 15px 20px 15px 20px;
     text-decoration: none;
     display: inline-block;
@@ -39,7 +39,7 @@ a[href*="javascript:markUnreviewed"]::after {
     color: #ffffff;
     font-size: 16px;
     background: #2BBBAD;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
     text-decoration: none;
     display: inline-block;
     text-align: center;
