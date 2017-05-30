@@ -1,9 +1,13 @@
+.button-5 {
+    padding-left: 0 !important;
+}
+
 a[href*="javascript:markReviewed"] {
     visibility: hidden !important;
 }
 
 a[href*="javascript:markReviewed"]::after {
-    content: "Click here to acknowledge that you understand the Keele University assignment submission requirements"; 
+    content: "\1F5B0 Click here to acknowledge that you understand the Keele University assignment submission requirements."; 
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
@@ -17,6 +21,7 @@ a[href*="javascript:markReviewed"]::after {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    float: left;
 }
 
 a[href*="javascript:markUnreviewed"] {
@@ -24,7 +29,7 @@ a[href*="javascript:markUnreviewed"] {
 }
 
 a[href*="javascript:markUnreviewed"]::after {
-    content: "Thank you!" !important;
+    content: "✓ Thank you. Your response has been recorded." !important;
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
@@ -38,4 +43,5 @@ a[href*="javascript:markUnreviewed"]::after {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    float: left;
 }
