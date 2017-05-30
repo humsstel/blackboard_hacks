@@ -1,0 +1,41 @@
+a[href*="javascript:markReviewed"] {
+    visibility: hidden !important;
+}
+
+a[href*="javascript:markReviewed"]::after {
+    content: "Click here to acknowledge that you understand the Keele University assignment submission requirements"; 
+    visibility: visible;
+    position: relative;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #ff4444;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+a[href*="javascript:markUnreviewed"] {
+    visibility: hidden !important;
+}
+
+a[href*="javascript:markUnreviewed"]::after {
+    content: "Thank you!" !important;
+    visibility: visible;
+    position: relative;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #2BBBAD;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
