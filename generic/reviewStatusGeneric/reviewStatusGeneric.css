@@ -1,3 +1,8 @@
+.button-5 {
+    max-width: 500px !important;
+    padding-left: 0 !important;
+}
+
 a[href*="javascript:markReviewed"] {
     visibility: hidden !important;
 }
@@ -24,7 +29,7 @@ a[href*="javascript:markUnreviewed"] {
 }
 
 a[href*="javascript:markUnreviewed"]::after {
-    content: "\263A I have reviewed this content" !important;
+    content: "✓ I have reviewed this content" !important;
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
@@ -38,4 +43,5 @@ a[href*="javascript:markUnreviewed"]::after {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    display: 
 }
