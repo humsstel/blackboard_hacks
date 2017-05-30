@@ -1,4 +1,8 @@
-#content_listContainer > :first-child .item-icon {
+#content_listContainer > :first-child {
+    background-color: #fafafa !important;
+}
+
+#content_listContainer > :first-child .item_icon {
     display: none !important;
 }
 
