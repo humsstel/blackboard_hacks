@@ -24,7 +24,7 @@ a[href*="javascript:markUnreviewed"] {
 }
 
 a[href*="javascript:markUnreviewed"]::after {
-    content: "U+263A I have reviewed this content" !important;
+    content: "\263A I have reviewed this content" !important;
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
