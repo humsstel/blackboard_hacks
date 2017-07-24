@@ -36,7 +36,7 @@ a[href*="javascript:markReviewed"]::after {
     padding: 15px 20px 15px 20px;
     text-decoration: none;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     float: left;
 }
 
@@ -58,6 +58,6 @@ a[href*="javascript:markUnreviewed"]::after {
     padding: 15px 20px 15px 20px;
     text-decoration: none;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     float: left;
 }
