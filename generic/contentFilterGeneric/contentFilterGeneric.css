@@ -1,3 +1,7 @@
+.pageTitle {
+    display: none !important;
+}
+
 #content_listContainer > :first-child {
     background-color: #333333 !important;
 }
@@ -26,8 +30,4 @@
     padding: 12px 20px 12px 12px;
     border: 1px solid #ddd;
     margin-bottom: -5px;
-}
-
-.pageTitle::before {
-    content: attr(class*="global-top-avatar"); 
 }
